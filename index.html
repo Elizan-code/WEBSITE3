@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!--Import Google Icon Font-->
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <!--FontAwesome icons-->
+  <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css">
+  <!-- Compiled and minified CSS -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+  
+  <title>FASHION</title>
+
+  <!--Style-->
+  <style>
+    header{
+      
+      background: url(img/main.jpg);
+      background-position: center;
+      background-size: cover;
+      min-height: 1000px;
+    }
+nav {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 9999;
+  background-color: rgba(0, 0, 0, 0.8); /* Navbar tetap terlihat */
+}
+
+    .section{
+      padding-bottom: 4vw;
+      padding-top: 4vw;
+    }
+    .tabs .indicator{
+      background-color: #000;
+    }
+    .tabs .tab a:hover, .tabs .tab a:focus.active {
+    
+    }
+
+    @media screen and (max-width:650px) {
+      
+    }
+  </style>
+    
+</head>
+  
+<body>
+  <!--header-->
+  <header id="home">
+    <nav class="nav-wrapper ">
+      <div class="container">
+        <a href="#" class="brand-logo">o_O EL</a>
+        <a href="#" class="sidenav-trigger" data-target="mobile"><i class="material-icons">menu</i></a>
+
+        <ul class="right hide-on-med-and-down">
+          <li><a href="#home">HOME</a></li>
+          <li><a href="#collections">COLLECTIONS</a></li>
+          <li><a href="#shops">SHOPS</a></li>
+          <li><a href="#contact">CONTACT</a></li>
+        </ul>
+
+        <ul class="sidenav grey darken-4 center" id="mobile">
+          <h3 class="white-text center">o_O EL</h3>
+          <li><a href="#home" class="waves-effect waves-light white-text">HOME</a></li>
+          <li><a href="#collections" class="waves-effect waves-light white-text">COLLECTIONS</a></li>
+          <li><a href="#shops" class="waves-effect waves-light white-text">SHOPS</a></li>
+          <li><a href="#contact" class="waves-effect waves-light white-text">CONTACT</a></li>
+        </ul>
+      </div>
+    </nav>
+  </header>
+
+  <!--img with description-->
+  <section class="container section " id="collections">
+    <div class="row">
+      <div class="col s12 l6">
+        <img src="img/leather.jpg" class="responsive-img materialboxed">
+      </div>
+      <div class="col s12 l6">
+        <h2 class="black-text">LEATHER</h2>
+        <p> bahan alami yang kuat, tahan lama, dan fleksibel, dengan tampilan elegan yang memberikan kesan premium. Kulit semakin nyaman digunakan seiring waktu, mudah dirawat, dan tahan terhadap air, angin, serta noda. Selain itu, kulit dapat diperbaiki dan memiliki kemampuan bernapas, menjadikannya bahan yang ideal untuk berbagai produk berkualitas.</p>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col s12 l6 push-l7">
+        <img src="img/jeans.jpg" class="responsive-img materialboxed">
+      </div>
+      <div class="col s12 l6 pull-l5">
+        <h2 class="black-text">LEVI'S JEANS</h2>
+        <p>merek legendaris asal Amerika yang terkenal dengan produk celana jeans berkualitas tinggi. Didirikan pada tahun 1853 oleh Levi Strauss, merek ini awalnya memproduksi celana kerja untuk para penambang selama masa demam emas di California. Levi's dikenal dengan desain yang klasik, ketahanan, dan kenyamanannya. Produk andalan mereka, seperti model 501, menjadi simbol budaya dan gaya hidup. Levi's terus berkembang dan tetap menjadi salah satu merek denim paling ikonik di dunia.</p>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col s12 l6">
+        <img src="img/watch.jpg" class="responsive-img materialboxed">
+      </div>
+      <div class="col s12 l6">
+        <h2 class="black-text">WATCHES</h2>
+        <p> perangkat untuk menunjukkan waktu sekaligus aksesori fashion, hadir dalam berbagai desain dan fitur seperti kalender atau ketahanan air. Jam tangan juga mencerminkan gaya pemakainya. Merek terkenal termasuk Rolex yang mewah, Omega dengan akurasi tinggi, Casio dengan G-Shock yang tahan lama, Seiko yang berkualitas, serta Patek Philippe dan Audemars Piguet yang dikenal dengan desain elegan dan craftsmanship tinggi. Tag Heuer juga populer dalam dunia jam tangan olahraga.</p>
+      </div>
+    </div>
+  </section>
+
+  <!--parallax 1st-->
+  <div class="parallax-container" id="shops">
+    <div class="parallax">
+      <img src="img/p1.jpg" class="responsive-img">
+    </div>
+  </div>
+  <!--tabs-->
+  <section class="container section">
+    <div class="row">
+      <div class="col s12 l5">
+        <h4 class="black-text">New Trend Info..</h4>
+        <p>trend saat ini menggabungkan elemen klasik dan modern, dengan fokus pada kenyamanan dan keanggunan. Di Paris Fashion Week 2025, pakaian oversized dan hibrida mendominasi, sementara aksesori besar seperti gelang dan kemeja berlengan panjang juga menjadi sorotan. Celana linen, dengan warna netral dan potongan lebar, diprediksi menjadi pilihan utama untuk musim semi 2025, menekankan keseimbangan antara gaya dan kenyamanan.</p>
+         
+      </div>
+
+      <div class="col s12 l6 offset-l1">
+        <ul class="tabs">
+          <li class="tab col s6">
+            <a href="#dg" class="black-text">Design Details</a>
+          </li>
+          <li class="tab col s6">
+            <a href="#fs" class="black-text">Fashion Details</a>
+          </li>
+        </ul>
+        <div class="col s12" id="dg">
+          <p class="flow-text black-text">NEW DESIGN</p>
+          <p> tren "indie sleaze" yang populer pada awal 2000-an kembali muncul, ditandai dengan pakaian yang mencerminkan estetika bebas dan berani. Gaya ini ditandai dengan pakaian yang mencerminkan estetika bebas dan berani. Kebangkitan tren ini juga terlihat pada koleksi musim semi/musim panas 2025 dari berbagai merek ternama.</p>  
+        </div>
+        <div class="col s12" id="fs">
+          <p class="flow-text black-text">NEW FASHION</p>
+          <p>desainer seperti Demna Gvasalia untuk Balenciaga dan Chitose Abe untuk Sacai menampilkan koleksi yang menggabungkan elemen formal dan streetwear, dengan fokus pada proporsi oversized dan pakaian hibrida.</p>  
+        </div>
+      </div>
+    </div>
+  </section>
+ 
+
+  <!--parallax 2nd-->
+  <div class="parallax-container">
+    <div class="parallax">
+      <img src="img/p2.jpg" class="responsive-img">
+    </div>
+  </div>
+
+  <!--contact-->
+  <section class="container section" id="contact">
+    <div class="row">
+      <div class="col s12 l5">
+        <h3 class="black-text">GET IN TOUCH</h3>
+        <p>orem ipsum dolor sit amet consectetur adipisicing elit. Culpa dolores rerum 
+          cupiditate illo fuga in dignissimos beatae!</p>
+        <p>orem ipsum dolor sit amet consectetur adipisicing elit. Culpa dolores rerum 
+          cupiditate illo fuga in dignissimos beatae!</p> 
+        <p>orem ipsum dolor sit amet consectetur adipisicing elit. Culpa dolores rerum 
+          cupiditate illo fuga in dignissimos beatae!</p>
+        <p>orem ipsum dolor sit amet consectetur adipisicing elit. Culpa dolores rerum 
+      
+        </div>
+      <div class="col s12 l5 offset-l2">
+        <form action="">
+          <div class="input-field">
+            <i class="material-icons prefix">email</i>
+            <input type="email" id="email">
+            <label for="email">Email Here</label>
+          </div>
+          <div class="input-field">
+            <i class="material-icons prefix">message</i>
+            <textarea name="" id="message" class="materialize-textarea"></textarea>
+            <label for="message">Message Here</label>
+          </div>
+          <div class="input-field">
+            <i class="material-icons prefix">today</i>
+            <input type="text" id="date" class="datepicker">
+            <label for="date">Choose your date</label>
+          </div>
+          <div class="input-field">
+            <p>Skills Required..</p>
+            <p>
+              <label>
+                <input type="checkbox">
+                <span>Designing</span>
+              </label>
+            </p>
+            <p>
+              <label>
+                <input type="checkbox">
+                <span>Modeling</span>
+              </label>
+            </p>
+            <div class="input-field center">
+              <button class="btn black white-text">SUBMIT</button>
+            </div>
+          </div>
+        </form>
+      </div>
+    </div>
+  </section>
+
+  <!--page footer-->
+  <footer class="page-footer grey darken-4">
+    <div class="container">
+      <div class="row">
+        <div class="col s12 l6">
+          <h5>ABOUT US</h5>
+          <p>orem ipsum dolor sit amet consectetur adipisicing elit. Culpa dolores rerum 
+            cupiditate illo fuga in dignissimos beatae!</p>
+          <p>orem ipsum dolor sit amet consectetur adipisicing elit. Culpa dolores rerum 
+            
+        </div>
+        <div class="col s12 l4 offset-l2">
+          <h5>CONNECT US</h5>
+          <ul>
+            <li><a href="https://www.facebook.com/" target="_blank" class="white-text">FACEBOOK</a></li>
+            <li><a href="https://x.com" target="_blank" class="white-text">TWITTER</a></li>
+            <li><a href="https://www.instagram.com/" target="_blank" class="white-text">INSTAGRAM</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="container center cyan-text"><h6>&copy;o_O EL</h6></div>
+    </div>
+  </footer>
+
+
+<!--Compiled and minified Jquery-->
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+<!-- Compiled and minified JavaScript -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+    
+    <script>
+      $(document).ready(function(){
+        $('.sidenav').sidenav();
+        $('.materialboxed').materialbox();
+        $('.parallax').parallax();
+        $('.tabs').tabs();
+        $('.datepicker').datepicker();
+      })
+    </script>
+
+</body>
+</html>
